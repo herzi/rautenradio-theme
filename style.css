@@ -1,0 +1,22 @@
+/*
+ Theme Name:   Rautenradio
+ Theme URI:    https://github.com/herzi/rautenradio-theme
+ Description:  Twenty Eleven Child Theme
+ Author:       Sven Herzberg
+ Author URI:   https://github.com/herzi
+ Template:     twentyeleven
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-eleven-child
+*/
+
+@import url("../twentyeleven/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.widget-title {
+    /* instead of a line-height of 1.6em, use a padding */
+    line-height: inherit;
+    padding-top: 1.6em;
+}
